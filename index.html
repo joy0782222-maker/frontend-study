@@ -8,8 +8,22 @@
 </head>
 
 <body>
+    <button id="btn">버튼</button>
+    <p class="other">클릭 횟수 : </p>
 
     <script>
+        let click_btn = document.querySelector('#btn');
+        console.log(click_btn);
+        let other = document.querySelector('.other');
+        console.log(other);
+        let count = 0;
+        click_btn.addEventListener('click', function(){
+            count++;
+            other.textContent = `클릭 횟수 : ${count}`;
+        });
+        
+    </script>
+    <!-- <script>
         let a = 10;
         let b = 3;
         console.log(a + b);
@@ -39,7 +53,7 @@
         
         
 
-    </script>
+    </script> -->
 
 
 

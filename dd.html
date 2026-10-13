@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="likeBtn">👍</button><br>
+    <button id="loginBtn">click me</button>
+    <p id="text">im a live!</p>
+    
+    <script>
+        const btn = document.querySelector('#loginBtn');
+        const text = document.querySelector('#text');
+        let isLogin = false;
+
+        btn.addEventListener('click', function() {
+            if(isLogin){
+                text.textContent = 'im a live!';
+            }
+            else{
+                isLogin = true;
+                text.textContent = 'im a dead!';
+            }
+        });
+
+        const likeBtn = document.querySelector('#likeBtn');
+        let isLike = false;
+        likeBtn.addEventListener('click', () => {
+            isLike = !isLike;//상태토글
+            if(isLike){
+                likeBtn.textContent = '👍';
+            }
+            else{
+                likeBtn.textContent = '👎';
+            }
+        });
+    </script>
+</body>
+</html>
