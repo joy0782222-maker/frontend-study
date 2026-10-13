@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let site = prompt('사이트를 입력하세요.');
+        let url = '';
+        switch(site){
+            case '네이버' : url = 'www.naver.com'; break;
+            case '구글' : url = 'www.google.com'; break;
+            case '유튜브' : url = 'www.youtube.com'; break;
+            default : url = alert('사이트를 잘못 입력하셨습니다.');
+        }
+        if(url){
+            window.open(`https://${url}`, "_self");
+        }
+
+    </script>
+
+</body>
+</html>
