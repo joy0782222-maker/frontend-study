@@ -1,0 +1,85 @@
+@import url("reset.css");
+
+.con {
+  width: 90%;
+  max-width: 700px;
+  min-width: 300px;
+  padding: 3%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.card li {
+  display: flex;
+  gap: 2%;
+  margin-bottom: 2%;
+  align-items: center;
+  background-color: white;
+}
+.card li:last-child {
+  margin-bottom: 2%;
+}
+.img_box,
+.card_text {
+  width: 50%;
+}
+
+.card_text {
+  padding: 2%;
+}
+
+.wrap {
+  width: 80%;
+  max-width: 650px;
+  min-width: 290px;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  padding: 3%;
+}
+.list li {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2%;
+  background-color: white;
+}
+.img {
+  width: 50%;
+  /* height: 100%; */
+}
+@media (max-width: 768px) {
+  .card_text h3 {
+    font-size: 16px;
+  }
+  .card_text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 650px) {
+  .list li {
+    flex-direction: column;
+  }
+  .img {
+    width: 100%;
+    /* height: 100%; */
+  }
+}
+@media (max-width: 480px) {
+  .card li {
+    flex-direction: column;
+    gap: 2%;
+  }
+  .img_box,
+  .card_text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  .list li {
+    flex-direction: column;
+  }
+  .img {
+    width: 100%;
+    /* height: 100%; */
+    margin: 5% auto;
+  }
+}

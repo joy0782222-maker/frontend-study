@@ -1,0 +1,38 @@
+@import url("reset.css");
+
+.con{
+    width: 90%;
+    max-width: 1200px;
+    min-width: 250px;
+    margin: 50px auto;
+    padding: 3%;
+    background-color: whitesmoke;
+}
+.card_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-bottom: 2%;
+    align-items: center;
+    background-color: white;
+}
+.card_list li{
+    width: calc((100% - 10%) / 6);
+    padding: 3%;
+    background-color: antiquewhite;
+}
+@media (max-width: 768px) {
+    .card_list li{
+        width: calc((100% - 6%) / 4);
+    }
+}
+@media (max-width: 480px) {
+    .card_list li{
+        width: calc((100% - 2%) / 2);
+    }
+}
+@media (max-width: 390px) {
+    .card_list li{
+        width: 100%;
+    }
+}
