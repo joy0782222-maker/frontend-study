@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: rgba(105, 71, 27, 0.918);
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  text-align: center;
+  padding: 20px;
+}
+#logo {
+  color: rgba(105, 71, 27, 0.918);
+  font-size: 500%;
+  font-weight: lighter;
+}
+nav {
+  text-align: center;
+  margin: 0 20px;
+}
+hr {
+  margin: 5px 0;
+}
+nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0;
+}
+.h2 {
+  text-align: center;
+  width: 100%;
+}
+.h2 p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+section p {
+  margin: 0;
+}
+section dt {
+  font-size: 15px;
+}
+.review {
+  background-color: rgba(192, 192, 192, 0.322);
+}
+dd img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.aa {
+  background-color: rgba(192, 192, 192, 0.322);
+  padding: 20px;
+}
+.review div {
+  padding: 10px;
+}
+.review dd > p,
+.review dt p:nth-child(2) {
+  color: gray;
+  font-size: 13px;
+}
+.review dt > p {
+  text-align: left;
+}
+.num {
+  background-color: rgba(192, 192, 192, 0.322);
+  border: 50px;
+}
+.num div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.num div a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer-top {
+  display: flex;
+}
+footer div {
+  font-size: 10px;
+  padding: 10px;
+}
+
+.last {
+  background-color: rgba(192, 192, 192, 0.322);
+}
+.last-text {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  font-size: 13px;
+}
