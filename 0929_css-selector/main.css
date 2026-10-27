@@ -1,0 +1,54 @@
+/* c+/ */
+body {
+    background-color: antiquewhite;
+}
+h1 {
+    color: tomato;
+    font-size: 20px;
+    background-color: wheat;
+}
+p {
+    color: blueviolet;
+}
+h2 {
+    font-size: 35px;
+}
+.menu1 {
+    color: brown;
+}
+.menu2 {
+    color: green;
+}
+.menu3 {
+    color: slateblue;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: beige;
+    border: 2px solid red;
+}
+.box1 {
+    background-color: black;
+    border-radius: 50%;
+}
+.box2 {
+    background-color: aqua;
+    border: 2px double white;
+}
+#title {
+    font-size: 48px;
+
+}
+#title2 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+#sub {
+    font-size: 50px;
+}
+.desk, .small {
+    color: violet;
+    font-weight: 800;
+}
