@@ -35,7 +35,7 @@
 ## 📂 폴더 구조
 
 ```
-1014/
+1014_cooking-class/
 ├─ index.html
 ├─ css/   → main, responsive, reset, fonts
 ├─ js/    → main.js (햄버거 메뉴)

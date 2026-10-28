@@ -19,6 +19,7 @@
 | 10.12 | [🟨 1012_js-basic](./1012_js-basic) | JS 첫걸음 — 변수, 출력, 연산 |
 | 10.12 | [🧪 1012_css-link](./1012_css-link) | 외부 CSS 파일 연결 |
 | 10.13 | [📚 1013_js-condition](./1013_js-condition) | 연산자 · 조건문 · switch · 이벤트 · 반응형 |
+| 10.14 | [🍝 1014_cooking-class](./1014_cooking-class) | 쿠킹 클래스 카드 페이지 — 반응형 그리드 + 햄버거 메뉴 |
 
 > 폴더를 누르면 각 실습의 정리 내용(README)이 바로 보여요.
 
@@ -26,10 +27,7 @@
 
 ## 🚀 완성 프로젝트
 
-수업에서 만든 완성 페이지는 따로 저장소로 정리했어요.
-
-- ✈️ **The Roam Report** — 여행 블로그 웹사이트
-- 🍝 **Cooking Class** — 쿠킹 클래스 카드 페이지
+- ✈️ [**The Roam Report**](https://github.com/joy0782222-maker/the-roam-report) — 여행 블로그 웹사이트 (따로 저장소로 정리)
 
 <br>
 
