@@ -27,7 +27,7 @@
 
 ## 🚀 완성 프로젝트
 
-- ✈️ [**The Roam Report**](https://github.com/joy0782222-maker/the-roam-report) — 혼자 직접 만든 첫 반응형 여행 블로그 웹사이트
+- ✈️ [**The Roam Report**](https://github.com/joy0782222-maker/the-roam-report) — Figma 시안을 혼자 직접 구현한 첫 반응형 여행 블로그
 
 <br>
 
